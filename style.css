@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+:root{
+    --font1: 'Saira Stencil One', 'cursive';
+    --font2: 'Nova Square', 'cursive';
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/git03.gif');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+
+section#displayMax{
+    font-family: var(--font2);
+    font-size: 0.6em;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#display{
+    background-color: ;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    width: 96%;
+    height: 20%;
+}
+
+div#hora{
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 17%;
+}
+
+div#audio{
+    background-image: url('imagens/musicbranco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10%;
+    height: 25%;
+    display: inline-block;
+    margin-right: 8%;
+    margin-top: 1%;
+    text-align: center;
+    box-shadow: black 0.2px 0.2px 2px 0.8px;
+    border-radius: 25px;
+}
+
+div#data{
+    text-align: right;
+    background-color: white;
+    width: 33%;
+    height: 25%;
+    display: inline-block;
+}
+
+div#numbers{
+    font-family: var(--font1);
+    font-size: 4em;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.726);
+    background-color: white;
+    width: 94.5%;
+    height: 65%;
+    margin-top: 3px;
+    margin-left: 2.6%;
+    border: 1px solid rgba(0, 0, 0, 0.644);
+}
+
+div#bottonsCostumerOne{
+    display: inline-block;
+    width: 190px;
+    margin-left: 15px;
+}
+
+div#bottonsCostumerTwo{
+    display: inline-block;
+}
+
+input.bot{
+    font-family: var(--font2);
+    font-size: 1.8em;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 3px;
+}
+
+input.bott{
+    font-family: var(--font2);
+    font-size: 1.8em;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 3px;
+}
+
+input#zero{
+    width: 124px;
+    height: 60px;
+}
+
+div#logoMarca{
+    background-image: url('imagens/onerbzero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin: auto;
+    
+}
